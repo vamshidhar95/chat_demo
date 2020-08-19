@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Hello world</title>
+      <!-- <base href="/"> -->
+      <link rel="stylesheet" type="text/css" href="styles.css">
+   </head>
+   
+   <script src = "/socket.io/socket.io.js"></script>
+   
+   <body>
+      <div id = "error-container"></div>
+      <div id="chat-div">
+        <div class="chat-header">
+            <h4>Chat Head</h4>
+        </div>
+        <div class="chat-container">
+            <div id="messages" class="chat-view">
+            </div>
+            <div class="text-input-container">
+                <input id="input-text" type="text" value="" placeholder="How May I help you.."/>
+                <button class="clear-btn" onClick="clearInput()">Clear</button>
+            </div>
+        </div>
+        
+        
+        <!-- <input type="file" placeholder="How May I help you.."/> -->
+        <!-- <button type="button" class="btn cancel" onClick="closechat()">Close</button> -->
+      </div>
+
+
+      <!-- <input id = "name" type = "text" name = "name" value = "" 
+         placeholder = "Enter your name!">
+      <button type = "button" name = "button" onclick = "setUsername()">
+         Let me chat!
+      </button> -->
+   </body>
+   <script src="script.js"></script>
+</html>
